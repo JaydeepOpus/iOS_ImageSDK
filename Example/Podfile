@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'iOS_imageSDK_Example' do
+  pod 'iOS_imageSDK', :path => '../'
+
+  target 'iOS_imageSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
