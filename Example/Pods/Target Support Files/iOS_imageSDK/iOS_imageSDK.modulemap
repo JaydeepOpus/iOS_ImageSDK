@@ -1,0 +1,6 @@
+framework module iOS_imageSDK {
+  umbrella header "iOS_imageSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

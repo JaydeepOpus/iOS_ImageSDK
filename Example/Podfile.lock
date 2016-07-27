@@ -1,0 +1,16 @@
+PODS:
+  - iOS_imageSDK (0.1.0)
+
+DEPENDENCIES:
+  - iOS_imageSDK (from `../`)
+
+EXTERNAL SOURCES:
+  iOS_imageSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  iOS_imageSDK: 163badd65c9ff1b59d16deab183b87fbe0f79441
+
+PODFILE CHECKSUM: 77606fc834d6e9ee21d0fc87c99392a5ce1bb8bd
+
+COCOAPODS: 1.0.1

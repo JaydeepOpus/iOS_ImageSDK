@@ -1,0 +1,22 @@
+{
+  "name": "iOS_imageSDK",
+  "version": "0.1.0",
+  "summary": "A short description of iOS_imageSDK.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/iOS_imageSDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Jaydeep": "jaydeep21.patoliya@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/iOS_imageSDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "iOS_imageSDK/Classes/**/*"
+}
