@@ -13,8 +13,9 @@
 		3222582D36CD5B39190CB7E9DBFE1528 /* Pods-iOS_imageSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EB039D43944EBC0B658CABC59ECFD115 /* Pods-iOS_imageSDK_Tests-dummy.m */; };
 		335D6A8DD688FD6C8CE8D9A2514A9F87 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		3BD45B3EAB6838F6202C41DF79DC7EEB /* Pods-iOS_imageSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D81FF5EF7EE5F5E3B2A5954F90D6470 /* Pods-iOS_imageSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		634E7D061D4886A60040761F /* iOS_imageSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 634E7D041D4886A60040761F /* iOS_imageSDK.h */; };
+		634E7D071D4886A60040761F /* iOS_imageSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 634E7D051D4886A60040761F /* iOS_imageSDK.m */; };
 		A145D54ED0A59BD751AC967E71B9B52A /* iOS_imageSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D499167378407A7E1941195A552ABC4 /* iOS_imageSDK-dummy.m */; };
-		B5D7EFA62C29B5C4B69DF15C48D8E66C /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 191E4B8C15DB89E2BFC83AAFABFD9F76 /* ReplaceMe.m */; };
 		E26DA9D6A0471BCF18CF55A66566C7E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		F6D6BB7B1911FB23D1DE9B0BDE80FEB1 /* Pods-iOS_imageSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 64395532EB781419EFEE1B28542A5069 /* Pods-iOS_imageSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -33,13 +34,14 @@
 		022F77FEC9C03D21EA332AD9C2FD8C5F /* iOS_imageSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iOS_imageSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		12C49125F8F08CE2A03FE5B4619DA3D2 /* Pods-iOS_imageSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOS_imageSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		187C12BE9B99B8AA9DA82B7DC58D5658 /* Pods-iOS_imageSDK_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOS_imageSDK_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		191E4B8C15DB89E2BFC83AAFABFD9F76 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		232FFA793FA5598F0F13E13997CA0A9F /* Pods-iOS_imageSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOS_imageSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		2D499167378407A7E1941195A552ABC4 /* iOS_imageSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "iOS_imageSDK-dummy.m"; sourceTree = "<group>"; };
 		47A7658F0D22030C4C32F2E2EAEE4AC4 /* Pods_iOS_imageSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_imageSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		558786B593D6E605729488A78BE24CC1 /* Pods-iOS_imageSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iOS_imageSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5BF46E2572DB7372E276CC5C097ED78F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		60C39019FF1DC3C31F289E743E7C60A9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		634E7D041D4886A60040761F /* iOS_imageSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iOS_imageSDK.h; sourceTree = "<group>"; };
+		634E7D051D4886A60040761F /* iOS_imageSDK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iOS_imageSDK.m; sourceTree = "<group>"; };
 		63C6B00C9C910D41A70DF381A6BEA131 /* Pods-iOS_imageSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOS_imageSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		64395532EB781419EFEE1B28542A5069 /* Pods-iOS_imageSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iOS_imageSDK_Example-umbrella.h"; sourceTree = "<group>"; };
 		67EB5EEE8BE04F35B4B4E5A7D484A7CE /* Pods-iOS_imageSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOS_imageSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -217,7 +219,8 @@
 		E39F7B0F8C21F3CA48A04BEAF1C9FC53 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				191E4B8C15DB89E2BFC83AAFABFD9F76 /* ReplaceMe.m */,
+				634E7D041D4886A60040761F /* iOS_imageSDK.h */,
+				634E7D051D4886A60040761F /* iOS_imageSDK.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -230,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F8F382FC14EFDAB375FBF5823C4F7A5 /* iOS_imageSDK-umbrella.h in Headers */,
+				634E7D061D4886A60040761F /* iOS_imageSDK.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,8 +357,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				634E7D071D4886A60040761F /* iOS_imageSDK.m in Sources */,
 				A145D54ED0A59BD751AC967E71B9B52A /* iOS_imageSDK-dummy.m in Sources */,
-				B5D7EFA62C29B5C4B69DF15C48D8E66C /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
