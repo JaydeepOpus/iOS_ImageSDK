@@ -114,9 +114,11 @@
 		6A26414498473FC035306BB03C217E35 /* iOS_imageSDK */ = {
 			isa = PBXGroup;
 			children = (
+				BDC91A9C8B2FA6380C606AE4166E23C4 /* Support Files */,
 				E39F7B0F8C21F3CA48A04BEAF1C9FC53 /* Classes */,
 			);
-			path = iOS_imageSDK;
+			name = iOS_imageSDK;
+			path = ../../iOS_imageSDK;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -169,7 +171,7 @@
 		A905ECBD9B5B14629C3C14071ACA44A2 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C1E72E47A85307E4F20A9973C3686A84 /* iOS_imageSDK */,
+				6A26414498473FC035306BB03C217E35 /* iOS_imageSDK */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -193,17 +195,7 @@
 				D82A44432EBB8A55B4E88C2F2EA8FA28 /* iOS_imageSDK-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "Example/Pods/Target Support Files/iOS_imageSDK";
-			sourceTree = "<group>";
-		};
-		C1E72E47A85307E4F20A9973C3686A84 /* iOS_imageSDK */ = {
-			isa = PBXGroup;
-			children = (
-				6A26414498473FC035306BB03C217E35 /* iOS_imageSDK */,
-				BDC91A9C8B2FA6380C606AE4166E23C4 /* Support Files */,
-			);
-			name = iOS_imageSDK;
-			path = ../..;
+			path = "../Example/Pods/Target Support Files/iOS_imageSDK";
 			sourceTree = "<group>";
 		};
 		C9D138B1964410AFBD7A6C6A15DE0276 /* Products */ = {
