@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0F8F382FC14EFDAB375FBF5823C4F7A5 /* iOS_imageSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D82A44432EBB8A55B4E88C2F2EA8FA28 /* iOS_imageSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F8F382FC14EFDAB375FBF5823C4F7A5 /* iOS_imageSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D82A44432EBB8A55B4E88C2F2EA8FA28 /* iOS_imageSDK-umbrella.h */; };
 		1A00D7DFF92C36A1EBEA8F545F28591D /* Pods-iOS_imageSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9722380EF5ED5990DFFF13379A0F706D /* Pods-iOS_imageSDK_Example-dummy.m */; };
 		1BAF083322101F3554857955089B85DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		3222582D36CD5B39190CB7E9DBFE1528 /* Pods-iOS_imageSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EB039D43944EBC0B658CABC59ECFD115 /* Pods-iOS_imageSDK_Tests-dummy.m */; };
 		335D6A8DD688FD6C8CE8D9A2514A9F87 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		3BD45B3EAB6838F6202C41DF79DC7EEB /* Pods-iOS_imageSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D81FF5EF7EE5F5E3B2A5954F90D6470 /* Pods-iOS_imageSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		634E7D061D4886A60040761F /* iOS_imageSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 634E7D041D4886A60040761F /* iOS_imageSDK.h */; };
+		634E7D061D4886A60040761F /* iOS_imageSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 634E7D041D4886A60040761F /* iOS_imageSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		634E7D071D4886A60040761F /* iOS_imageSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 634E7D051D4886A60040761F /* iOS_imageSDK.m */; };
 		A145D54ED0A59BD751AC967E71B9B52A /* iOS_imageSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D499167378407A7E1941195A552ABC4 /* iOS_imageSDK-dummy.m */; };
 		E26DA9D6A0471BCF18CF55A66566C7E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
@@ -232,8 +232,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F8F382FC14EFDAB375FBF5823C4F7A5 /* iOS_imageSDK-umbrella.h in Headers */,
 				634E7D061D4886A60040761F /* iOS_imageSDK.h in Headers */,
+				0F8F382FC14EFDAB375FBF5823C4F7A5 /* iOS_imageSDK-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
